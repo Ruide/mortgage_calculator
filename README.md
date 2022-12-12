@@ -5,11 +5,12 @@ See the example usage in main.py. We can get monthly pay before and after refina
 
 e.g.
 > python3 main.py
-initial fixed 30yrs rate 0.055. sale price 2000000. down payment rate 0.2. discount rate 0.04.
+
+```initial fixed 30yrs rate 0.055. sale price 2000000. down payment rate 0.2. discount rate 0.04.
 the total inital loan 1600000.0
 the total inital monthly mortgage payment: 9084.624021552008
 years before refinance 3.0. refinance rate 0.035.
 loan remained before refinance 1531623.7772012928
 the total after refinance monthly mortgage payment: 6877.675208739256
 total pay after discounted to present: 1634107.4454846573
-
+```
