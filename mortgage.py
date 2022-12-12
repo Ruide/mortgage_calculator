@@ -12,7 +12,8 @@ class Mortgage:
         M = P*(r*(1+r)**n)/((1+r)**n-1)
         '''
         M = P*r*((1+r)**n)/((1+r)**n-1)
-        print('initial fixed 30yrs rate',''.join([str(fixed_30yrs_rate),'.']), 'sale price', ''.join([str(sale_price),'.']), 'discount rate', ''.join([str(discount_rate),'.']))
+        print('initial fixed 30yrs rate',''.join([str(fixed_30yrs_rate),'.']), 'sale price', ''.join([str(sale_price),'.']),'down payment rate', ''.join([str(down_payment_rate),'.']), 'discount rate', ''.join([str(discount_rate),'.']))
+        print('the total inital loan', P)
         print('the total inital monthly mortgage payment:',M)
         pay_per_year=12.0*M
         total_pay_after_discounted_to_present=0.0
