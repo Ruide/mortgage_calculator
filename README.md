@@ -15,3 +15,11 @@ loan remained before refinance: 1531623.7772012928
 the total after refinance monthly mortgage payment: 6877.675208739256
 total pay after discounted to present: 1634107.4454846573
 ```
+
+# TODO:
+<ol>
+  <li>separate print_mortgage. move print to a print function. change name, let it return to-be-printed variables. move formula to a function.</li>
+  <li>pass in parameters in commandline, main accept parameters through commands</li>
+  <li>provide interactive pass in parameters and save parameters to file and load from file</li>
+  <li>add UI</li>
+</ol>
