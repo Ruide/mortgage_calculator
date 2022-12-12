@@ -12,8 +12,8 @@ class Mortgage:
         M = P*(r*(1+r)**n)/((1+r)**n-1)
         '''
         M = P*r*((1+r)**n)/((1+r)**n-1)
-        print('initial fixed 30yrs rate',''.join([str(fixed_30yrs_rate),'.']), 'sale price', ''.join([str(sale_price),'.']),'down payment rate', ''.join([str(down_payment_rate),'.']), 'discount rate', ''.join([str(discount_rate),'.']))
-        print('the total inital loan', P)
+        print('initial fixed 30yrs rate:',''.join([str(fixed_30yrs_rate),'.']), 'sale price:', ''.join([str(sale_price),'.']),'down payment rate:', ''.join([str(down_payment_rate),'.']), 'discount rate:', ''.join([str(discount_rate),'.']))
+        print('the total inital loan:', P)
         print('the total inital monthly mortgage payment:',M)
         pay_per_year=12.0*M
         total_pay_after_discounted_to_present=0.0
@@ -34,8 +34,8 @@ class Mortgage:
         for i in range(int(fixed_yrs*ratio_of_before_refinance_and_fixed_yrs)):
             total_pay_after_discounted_to_present_before_refinance+= pay_per_year/((1.0+discount_rate)**i)
         
-        print('years before refinance',''.join([str(yrs_before_refinance),'.']), 'refinance rate', ''.join([str(refinance_rate),'.']))
-        print('loan remained before refinance', loan_balance_remained)
+        print('years before refinance:',''.join([str(yrs_before_refinance),'.']), 'refinance rate:', ''.join([str(refinance_rate),'.']))
+        print('loan remained before refinance:', loan_balance_remained)
         P = loan_balance_remained
         r = refinance_rate/12.0
         after_refinance_Monthly_morgate_pay = P*r*((1+r)**n)/((1+r)**n-1)
